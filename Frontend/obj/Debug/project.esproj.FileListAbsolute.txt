@@ -1,0 +1,2 @@
+C:\Users\easto\Desktop\ImageAnalyzer\Frontend\obj\Debug\project.esproj.CoreCompileInputs.cache
+C:\Users\easto\Desktop\MyStats\Frontend\obj\Debug\project.esproj.CoreCompileInputs.cache

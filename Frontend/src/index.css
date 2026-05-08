@@ -1,0 +1,174 @@
+/* Properties for the whole html document */
+html {
+    background: url('Assets/background.png');
+    background-size: 400px;
+    background-color: rgb(18, 18, 28);
+}
+
+/* properties for the html and body */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* properties for html tags with the "app" id */
+#app {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* properties for the login form */
+#loginForm {
+    line-height: 20px;
+
+    font-family: 'Arial Rounded MT';
+    font-size: 25px;
+    color: white;
+    
+    text-align: center;
+}
+
+/* properties for text input fields */
+input[type=text] {
+    width: 250px;
+    height: 30px;
+    border-radius: 16px;
+    margin-top: 5px;
+    font-family: 'Arial Rounded MT';
+}
+
+/* properties for the signup link/button */
+#signupLink {
+    font-size: 15px;
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+/* properties for the login form */
+#signupForm {
+    line-height: 20px;
+
+    font-family: 'Arial Rounded MT';
+    font-size: 25px;
+    color: white;
+
+    text-align: center;
+}
+
+
+/* properties for submit buttons */
+#submitButton {
+    width: 150px;
+    height: 40px;
+
+    border-radius: 14px;
+
+    font-family: 'Arial Rounded MT';
+    font-size: 22px;
+    color: white;
+
+    background-color: lawngreen;
+
+    cursor: pointer;
+}
+
+/* properties for the login failure text on login form and the signup error text on signup form */
+#loginFailureText, #signupErrorText {
+        font-size: 16px;
+        color: red;
+}
+
+/* properties for the statistics page */
+#statisticsPage {
+    width: 50%;
+    height: 100%;
+
+    text-align: center;
+
+    font-family: 'Arial Rounded MT';
+    font-size: 30px;
+    color: white;
+
+    margin-top: 50px;
+}
+
+/* properties for the welcome text on the statistics page */
+#welcomeText {
+    margin-bottom: 25px;
+    line-height: 60px;
+}
+
+/* properties for the calculate statistics button */
+#calculateStatisticsButton {
+    width: 150px;
+    height: 40px;
+
+    margin-top: 15px;
+
+    border-radius: 14px;
+
+    background-color: lawngreen;
+
+    font-family: 'Arial Rounded MT';
+    font-size: 16px;
+    color: white;
+
+    line-height: 16px;
+
+    cursor: pointer;
+}
+
+/* properties for the div that holds the number set and its statistics */
+#statisticsDisplay {
+    height: auto;
+    line-height: 22px;
+}
+
+/* properties for the text that says "number set" on the statistics page */
+#numberSetText {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    line-height: 55px;
+}
+
+
+/* properties for the div that holds all the numbers in the number set */
+#numberSetLabels {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 7px;
+
+    justify-content: left;
+}
+
+/* properties for the div that holds the statistic labels */
+#numberSetStatisticsLabels {
+    width: fit-content;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+/* properties for each number label in the number set */
+#numberLabel {
+    padding-top: 0.2em;
+    padding-right: 0.3em;
+    padding-bottom: 0.2em;
+    padding-left: 0.3em;
+
+    font-size: 25px;
+
+    border-radius: 8px;
+
+    background-color: cornflowerblue;
+}
